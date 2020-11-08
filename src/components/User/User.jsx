@@ -9,7 +9,7 @@ const User = () => {
     <h2>{userProfile.name}</h2>
     <h3>Followers: {userProfile.followers}</h3>
     <h3>Following: {userProfile.following}</h3>
-    <a href={userProfile.profileLink}>Github Link: {userProfile.profileLink}</a>
+    <a href={userProfile.profileLink}>Link: {userProfile.profileLink}</a>
   </div>;
 };
 
