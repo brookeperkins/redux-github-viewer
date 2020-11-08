@@ -1,7 +1,7 @@
 import { SET_USER, SET_FOLLOWERS, SET_REPOS } from '../actions/githubActions';
 
 const initialState = {
-  user: '',
+  user: {},
   followers: 0,
   repos: []
 };

@@ -4,22 +4,7 @@ exports[`UserForm component renders UserForm 1`] = `
 <DocumentFragment>
   <form>
     <label>
-      Enter a Github Username:
-      <textarea
-        placeholder="username"
-      />
-    </label>
-    <button>
-      Submit
-    </button>
-  </form>
-</DocumentFragment>
-`;
-
-exports[`UsernameForm component renders UsernameForm 1`] = `
-<DocumentFragment>
-  <form>
-    <label>
+      Username:
       <textarea
         placeholder="username"
       />

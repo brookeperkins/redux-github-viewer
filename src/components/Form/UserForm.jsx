@@ -2,7 +2,7 @@ import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { fetchUser, fetchRepos, setSearch } from '../../actions/githubActions';
 
-const UsernameForm = () => {
+const UserForm = () => {
   const dispatch = useDispatch();
   const search = useSelector(state => state.search);
   
@@ -19,7 +19,7 @@ const UsernameForm = () => {
 
   return (
     <form onSubmit={handleSubmit}>
-      <label>Enter a Github Username:
+      <label>Username:
         <textarea onChange={handleChange} placeholder="username"></textarea>
       </label>
       <button>Submit</button>
@@ -27,4 +27,4 @@ const UsernameForm = () => {
   );
 };
 
-export default UsernameForm;
+export default UserForm;
