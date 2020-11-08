@@ -6,6 +6,12 @@ export const setUser = user => ({
   payload: user
 });
 
+export const SET_SEARCH = 'SET_SEARCH';
+export const setSearch = search => ({
+  type: SET_SEARCH,
+  payload: search
+});
+
 export const SET_FOLLOWERS = 'SET_FOLLOWERS';
 export const setFollowers = followers => ({
   type: SET_FOLLOWERS,

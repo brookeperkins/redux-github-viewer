@@ -1,6 +1,6 @@
 import React from 'react';
-import UserForm from '../components/Form/UserForm';
-import User from '../components/User/User';
+import UserForm from '../Form/UserForm';
+import User from '../User/User';
 
 export default function App() {
   return (
